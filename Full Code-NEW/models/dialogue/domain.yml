@@ -1,0 +1,77 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_feel_good
+- utter_suggest
+- utter_say_no
+- utter_say_yes
+- utter_meditation
+- utter_podcast
+- utter_music
+- utter_motivate
+- utter_thankyou
+- utter_goodbye
+actions:
+- utter_greet
+- utter_feel_good
+- utter_suggest
+- utter_say_no
+- utter_say_yes
+- utter_meditation
+- utter_podcast
+- utter_music
+- utter_motivate
+- utter_thankyou
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- emotion
+intents:
+- greet
+- feel_good
+- suggest
+- say_no
+- say_yes
+- podcast
+- music
+- motivate
+- meditate
+- thankyou
+- goodbye
+slots:
+  emotion:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_feel_good:
+  - text: Good to know that!
+  - text: I am happy for you.
+  utter_goodbye:
+  - text: Have a nice day, goodbye!
+  - text: Talk to you later.
+  utter_greet:
+  - text: Hello, great to see you! How are you doing today?
+  - text: Hey there, good to see you again! How are you feeling today?
+  utter_meditation:
+  - text: Looks like you are in need of some guided medidation to relax your muscle
+      tension. Let me take you to some super relaxing medidation videos.
+  utter_motivate:
+  - text: You should watch some motivational videos to uplift your morale. Let me
+      suggest some very inspiring motivaional videos.
+  utter_music:
+  - text: I think you should listen to some calm nature music to help you make less
+      restless. Let me take you to a very calming playlist.
+  utter_podcast:
+  - text: I think you need to listen to a few podcasts to make you feel motivated
+      again. Let me take you to some podcasts hand-picked for you.
+  utter_say_no:
+  - text: Alright, no worries.
+  utter_say_yes:
+  - text: Great! Describe your mood/emotion in one word.
+  utter_suggest:
+  - text: I am very sorry to hear that. Would you like for me to suggest you some
+      virtual therapies to make you feel better?
+  utter_thankyou:
+  - text: You are always welcome.
+topics: []

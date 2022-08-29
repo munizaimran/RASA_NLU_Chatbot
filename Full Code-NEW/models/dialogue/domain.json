@@ -1,0 +1,30 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_feel_good",
+    "intent_suggest",
+    "intent_say_no",
+    "intent_say_yes",
+    "intent_podcast",
+    "intent_music",
+    "intent_motivate",
+    "intent_meditate",
+    "intent_thankyou",
+    "intent_goodbye",
+    "entity_emotion",
+    "slot_emotion_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_feel_good",
+    "prev_utter_suggest",
+    "prev_utter_say_no",
+    "prev_utter_say_yes",
+    "prev_utter_meditation",
+    "prev_utter_podcast",
+    "prev_utter_music",
+    "prev_utter_motivate",
+    "prev_utter_thankyou",
+    "prev_utter_goodbye"
+  ]
+}
